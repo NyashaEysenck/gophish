@@ -4,6 +4,7 @@
 		"use_tls": false,
 		"cert_path": "gophish_admin.crt",
 		"key_path": "gophish_admin.key",
+		"trusted_origin": "https://gophish-production-ace6.up.railway.app",
 		"trusted_origins": [],
 		"allowed_referers": [
   "https://gophish-production-094e.up.railway.app"
