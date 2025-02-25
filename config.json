@@ -5,8 +5,10 @@
 		"cert_path": "gophish_admin.crt",
 		"key_path": "gophish_admin.key",
 		"trusted_origins": [],
-		"allowed_referers": [],
-		"use_proxy":true
+		"allowed_referers": [
+  "https://gophish-production-094e.up.railway.app"
+]
+
 
 	},
 	"phish_server": {
