@@ -1,13 +1,12 @@
 {
   "admin_server": {
-    "listen_url": "0.0.0.0:443",  // Port for HTTPS
+    "listen_url": "0.0.0.0:443", 
     "use_tls": true,
-    "cert_path": "path/to/certificate.crt",  // Optional: Use if you want custom SSL certs
-    "key_path": "path/to/private.key"       // Optional: Use if you want custom SSL certs
+
   },
   "phishing_server": {
-    "listen_url": "0.0.0.0:443",   // Port for HTTPS
-    "use_tls": true                 // Enforce HTTPS on phishing landing page
+    "listen_url": "0.0.0.0:443",  
+    "use_tls": true               
   },
 
 	"db_name": "sqlite3",
