@@ -11,11 +11,15 @@
 
 
 	},
+	"allowed_referers": [],
+
 	"phish_server": {
 		"listen_url": "0.0.0.0:5443",
 		"use_tls": false,
 		"cert_path": "example.crt",
-		"key_path": "example.key"
+		"key_path": "example.key",
+		"allowed_referers": []
+
 	},
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
