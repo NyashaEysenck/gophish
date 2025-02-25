@@ -1,5 +1,4 @@
 {
-	{
   "admin_server": {
     "listen_url": "0.0.0.0:443",  // Port for HTTPS
     "use_tls": true,
