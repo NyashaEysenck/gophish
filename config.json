@@ -1,17 +1,16 @@
 {
-	"admin_server": {
-		"listen_url": "0.0.0.0:3333",
-		"use_tls": true,
-		"cert_path": "gophish_admin.crt",
-		"key_path": "gophish_admin.key",
-		"trusted_origins": []
-	},
-	"phish_server": {
-		"listen_url": "0.0.0.0:80",
-		"use_tls": false,
-		"cert_path": "example.crt",
-		"key_path": "example.key"
-	},
+	{
+  "admin_server": {
+    "listen_url": "0.0.0.0:443",  // Port for HTTPS
+    "use_tls": true,
+    "cert_path": "path/to/certificate.crt",  // Optional: Use if you want custom SSL certs
+    "key_path": "path/to/private.key"       // Optional: Use if you want custom SSL certs
+  },
+  "phishing_server": {
+    "listen_url": "0.0.0.0:443",   // Port for HTTPS
+    "use_tls": true                 // Enforce HTTPS on phishing landing page
+  },
+
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
 	"migrations_prefix": "db/db_",
