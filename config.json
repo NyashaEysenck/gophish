@@ -7,7 +7,7 @@
 		"trusted_origins": []
 	},
 	"phish_server": {
-		"listen_url": "0.0.0.0:4443",
+		"listen_url": "0.0.0.0:5443",
 		"use_tls": false,
 		"cert_path": "example.crt",
 		"key_path": "example.key"
